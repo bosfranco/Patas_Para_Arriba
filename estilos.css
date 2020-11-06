@@ -7,71 +7,44 @@
 
 /* HOME */
 
-#contenedor {
-
-	background-color: white;
-	display: flex;
-	flex-flow: row wrap;
-}
-
 header {
 
 	background-color: white;
 	height: 10vh;
 	display: flex;
-	flex-basis: 100%;
-	justify-content: flex-end;
+	flex-basis: 10%;
+	justify-content: center;
 	align-items: center;
 	margin-right: 20px;
 	margin-top: 20px;
 }
 
-ul {
-
-	display: flex;
-}
-
-li {
-
-	list-style: none;
-	padding: 10px;
-}
 
 header #menu a {
 
 	color: #ec823a;
 }
 
-header #menu a:hover {
+#menu a:hover {
 
-	border: solid 1px;
-	text-decoration: none; 
-	padding: 10px;
+	background-color: #ec823a;
+	color: white;
 }
 
 /* section */
 
-section {
-
-	width: 100vw;
-	background-color: #fff8cd;
-}
-
-#seccionIndex {
+#imagenIndex {
 
 	background-image: url(img/fondo.jpg);
 	background-size: cover;
 	background-position: center;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
 	height: 75vh;
 }
 
 #tituloIndex {
 
-	margin-top: 20px;
-	font-size: 5vw;
+	margin-top: 30px;
+	font-size: 3vw;
 	color: black;
 	font-family: 'Patua One';
 }
@@ -79,38 +52,41 @@ section {
 #pie {
 
 	background-color: #322f3d;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 10px;
 }
 
-.seccion2 {
+#seccion {
 
-	background-color: white;
+	background-color: #f8e4b7;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
-	height: 75vh;
+	height: 100%;
 }
 
-#contenedorInfo {
+#imagenIndex2 {
 
-	background-color: white;
-	margin-top: 25px; 
-	width: 10vw;
+	width: 30vw;
+	height: auto;
 }
 
-#contenedorInfo a {
+.botonIndex {
 
-	background-color: #322f3d;
-	padding: 10px;
+	margin-top: 30px;
+	background-color: #ec823a;
 	color: white;
-	text-decoration: none;
-	animation-name: botoncatalogo;
+	padding: 10px;
+	border-radius: 20px;
 }
 
+.botonIndex:hover {
 
+	color: black;
+	text-decoration: none;
+}
 
 #pie a {
 
@@ -139,7 +115,7 @@ section {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	height: 100%;
+	width: 100vw;
 }
 
 .contenedorForm h2 {
@@ -201,42 +177,17 @@ section {
 	font-family: 'Roboto', sans-serif;
 }
 
-#footerNosotros {
-
-	background-color: #322f3d;
-	padding: 10px;
-	display: flex;
-	justify-content: space-evenly;
-}
-
-#footerNosotros p {
-
-	margin: 10px;
-	color: white;
-}
-
 /* CATÁLOGO */
 
+#contenedorForm {
 
-.contenedorCatalogo {
+	display: flex;
+	widows: 100vw;
+	flex-flow: row wrap;
+	justify-content: space-around;
 
-	display: grid;
-	grid-template-columns: repeat(4, 3fr);
-	grid-template-rows: repeat(2, 3fr);
-	justify-items: center;
-	margin: 20px;
 }
 
-.contenedorCatalogo p {
-
-	text-align: center;
-}
-
-.contenedorCatalogo img:hover {
-
-	transform: scale(0.9,0.9);
-	background-color: #ec823a;
-}
 
 /* CLIENTES */
 
