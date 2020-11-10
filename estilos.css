@@ -12,7 +12,7 @@ header {
 	background-color: white;
 	height: 10vh;
 	display: flex;
-	flex-basis: 10%;
+	flex-basis: 100%;
 	justify-content: center;
 	align-items: center;
 	margin-right: 20px;
@@ -30,8 +30,6 @@ header #menu a {
 	background-color: #ec823a;
 	color: white;
 }
-
-/* section */
 
 #imagenIndex {
 
@@ -67,7 +65,7 @@ header #menu a {
 	height: 100%;
 }
 
-#imagenIndex2 {
+#vector {
 
 	width: 30vw;
 	height: auto;
@@ -88,6 +86,8 @@ header #menu a {
 	text-decoration: none;
 }
 
+/* FOOTER es el mismo para todas las secciones*/
+
 #pie a {
 
 	text-decoration: none;
@@ -100,12 +100,11 @@ header #menu a {
 
 }
 
-.redes {
+#pie a {
 
 	text-decoration: none;
 	padding: 20px;
 	color: white;
-	font-family: Raleway;
 }
 
 /* SECCIÓN CONTACTO */
@@ -115,12 +114,6 @@ header #menu a {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	width: 100vw;
-}
-
-.contenedorForm h2 {
-
-	font-family: 'Roboto', sans-serif;
 }
 
 #form {
@@ -150,44 +143,18 @@ header #menu a {
 	color: white;
 }
 
-/* SECCIÓN NOSOTROS */
-
-.nosotros {
-
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-}
-
-.nosotros h3 {
-
-	font-family: 'Roboto', sans-serif;
-	margin-top: 20px;
-}
-
-#sectionNosotros {
-
-	padding: 10px;
-	width: 90%;
-	margin-left: 40px;
-}
-
-#sectionNosotros h5 {
-
-	font-family: 'Roboto', sans-serif;
-}
-
 /* CATÁLOGO */
 
-#contenedorForm {
+#catalogo {
 
-	display: flex;
-	widows: 100vw;
-	flex-flow: row wrap;
-	justify-content: space-around;
-
+	background-color: #f8e4b7;
 }
 
+#catalogo img:hover {
+
+	transform: scale(1.2, 1.2);
+	transition: transform 0.3s;
+}
 
 /* CLIENTES */
 
@@ -201,17 +168,10 @@ header #menu a {
 	justify-content: flex-start;
 }
 
-#clientes h3 {
+.clientesTexto {
 
-	font-family: 'Roboto', sans-serif;
-	margin-left: 80px;
-	margin-top: 20px; 
-}
-
-#clientes p {
-
-	margin-left: 80px;
-	margin-right: 50px;
+	margin-left: 20px;
+	margin-top: 10px;
 }
 
 .contenedorImg {
@@ -219,7 +179,7 @@ header #menu a {
 	display: flex;
 	width: 100%;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 img {
@@ -232,5 +192,6 @@ img {
 
 .contenedorImg img:hover {
 
-	background-color: #f4a261;         
+	transform: scale(1.2, 1.2);
+	transition: transform 0.3s;        
 }
