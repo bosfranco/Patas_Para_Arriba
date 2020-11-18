@@ -6,7 +6,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,900;1,400&display=swap" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  	<link rel="stylesheet" href="estilos.css">
+  	<link rel="stylesheet" href="css/estilos.css">
 	<title> Clientes </title>
 </head>
 
@@ -14,20 +14,27 @@
 	
 		<header class="container-fluid">
 
-	 		<ul class="nav nav-tabs" id="menu">
+	 		<nav class="navbar navbar-expand-sm navbar-light light-blue lighten-4">
+	 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+   				<span class="navbar-toggler-icon"></span>
+ 				</button>
+	 		<div class="collapse navbar-collapse" id="menu">
+	 		<ul class="navbar-nav mr-auto">
  				 <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
  				 <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
  				 <li class="nav-item"><a class="nav-link" href="nosotros.html">NOSOTROS</a></li>
  				 <li class="nav-item"><a class="nav-link" href="catalogo.html">CATÁLOGO</a></li>
  				<li class="nav-item"><a class="nav-link" href="clientes.html">CLIENTES</a></li>
 			</ul>
-			
+			</div>
+			</nav>
+
 	 	</header>
 
 	<section id="clientes">
 
-		<h3 id="tituloClientes"> Nuestros clientes </h3>
-		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto optio fugiat eveniet reiciendis magnam necessitatibus voluptate officia nihil impedit minus eos expedita, fugit soluta quibusdam dolorum enim. Saepe, esse.</p>
+		<h2 class="clientesTexto"><b> Nuestros clientes </b></h2>
+		<p class="clientesTexto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto optio fugiat eveniet reiciendis magnam necessitatibus voluptate officia nihil impedit minus eos expedita, fugit soluta quibusdam dolorum enim. Saepe, esse.</p>
 
 		<div class="contenedorImg">
 		<img src="img/clientes1.jpg" alt="Imagen gato">
@@ -37,6 +44,15 @@
 
 	</section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<footer class="container-fluid col-12 col-sm-12 col-md-12 col-lg-12" id="pie">
+
+	 		<a href="https://www.facebook.com/Patas-para-arriba_-106522277797949" class="redes"> FACEBOOK </a>
+
+	 		<a href="https://www.instagram.com/patasparaarriba_/" class="redes"> INSTAGRAM </a>
+
+	 	</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-</html>
